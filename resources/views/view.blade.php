@@ -9,11 +9,15 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <title>Document</title>
 </head>
- <section class="p-5">
+<section style="padding-top:60px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+ <!-- <section class="p-5">
    <center><div class="content">
         <div class="container-fluid mt-5 mx-5"> 
                 <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6"> -->
             <div class="card mt-6 ">
             <table align="center">
               <tr>

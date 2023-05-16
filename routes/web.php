@@ -8,6 +8,7 @@ use App\Http\Controllers\JobdeskController;
 use App\Http\Controllers\VerifikasiController;
 use App\Http\Controllers\QRCodeController;
 use App\Http\Controllers\SuratController;
+use App\Http\Controllers\EditorController;
 
 
 /*
@@ -63,6 +64,11 @@ Route::get('/surat/add', [SuratController::class,'add']);
 Route::post('/surat/tambah', [SuratController::class,'tambah']);
 Route::get('/surat/hapus/{id}', [SuratController::class, 'hapus']);
 
+// Route::get('/editor', function () {
+//     return view('v_editor');
+// });
+
+Route::get('/editor', [EditorController::class, 'editor']);
 
 Route::group(['middleware' => ['auth','checkLevel:Admin,Pejabat']],function(){
     Route::get('/', function () {

@@ -17,10 +17,10 @@
               <i class="nav-icon fas fa-user"></i>
               <p>
                User
-    
               </p>
             </a>
             </li>
+          
             <li class="nav-item has-treeview">
             <a href="/verifikasi/add" class="nav-link">
               <i class="nav-icon fas fa-book"></i>
@@ -44,6 +44,15 @@
               <i class="nav-icon fas fa-address-card"></i>
               <p>
                Jenis Surat
+    
+              </p>
+            </a>
+            </li>
+            <li class="nav-item has-treeview">
+            <a href="/editor" class="nav-link">
+              <i class="nav-icon fas fa-address-card"></i>
+              <p>
+               Editor Surat
     
               </p>
             </a>
